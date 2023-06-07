@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/about.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/destination.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <title>Destinations</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div w3-include-html="navbar.html"></div>
+
+        <!-- Section title-page -->
+        <section class="box-title-page">
+            <div class="wrap wrap-title-page">
+                <h1>All Trips</h1>
+                <ul class="menu-history">
+                    <li>Home</li>
+                    <li>All Trips</li>
+                </ul>
+            </div>`
+        </section>
+
+        <!-- Section Destination -->
+        <section class="box-list-destination">
+            <div class=" wrap search-destination">
+                <div class="select-destination">
+                    <span id="filter-select">
+                        Filter By
+                        <i class="fa-light fa-angle-down"></i>
+                    </span>
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="0">Price</option>
+                            <option value="1">Price low to high</option>
+                            <option value="1">Price high to low</option>
+                        </select>
+                        <i class="fa-light fa-angle-down"></i>
+                    </div>
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="0">Trip Type</option>
+                            <option value="1">Active Tours</option>
+                            <option value="2">Classic Tours</option>
+                            <option value="3">Sailing Tours</option>
+                            <option value="4">Family Tours</option>
+                            <option value="5">Food Tours</option>
+                            <option value="6">Wildfire Tours</option>
+                        </select>
+                        <i class="fa-light fa-angle-down"></i>
+                    </div>
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">Location</option>
+                            <option value="">Europe</option>
+                            <option value="">South & North America</option>
+                            <option value="">Polar Regions</option>
+                            <option value="">Hymalayas</option>
+                            <option value="">Maldives</option>
+                            <option value="">Central Africa</option>
+                        </select>
+                        <i class="fa-light fa-angle-down"></i>
+                    </div>
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">Trip Name</option>
+                            <option value="">Ascending</option>
+                            <option value="">Descending</option>
+                        </select>
+                        <i class="fa-light fa-angle-down"></i>
+                    </div>
+                    <button type="submit">
+                        Show
+                    </button>
+                </div>
+                <div class="change-grid" id="change-list">
+                    <i class="fa-solid fa-grid"></i>
+                    <i class="fa-solid fa-list list"></i>
+                </div>
+            </div>
+            <div class="wrap wrap-list-destination" id="list-destination">
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel12.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel10.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel5.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel4.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel9.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="post-destination">
+                    <div class="info-post-destination">
+                        <div class="img-post-destination">
+                            <img src="./images/travel11.jpg" alt="">
+                        </div>
+                        <div class="content-post-destination">
+                            <a href="detailTour.html">
+                                Authors Tour in Tibet
+                            </a>
+                            <p>Tibet is as big on natural beauty as it is on spirituality. The highest elevation in
+                                Tibet is Mount Everest.</p>
+                            <div class="vote">
+                                <div class="vote-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="num-review">(0 Reviews)</span>
+                            </div>
+                            <div class="element-post-destination">
+                                <ul class="tag-post-destination">
+                                    <li>
+                                        <i class="fa-regular fa-folder"></i>
+                                        <a href="">
+                                            Active Tours
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    Classic Tour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    Family Tours
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <i class="fa-solid fa-play"></i>
+                                    </li>
+                                </ul>
+                                <div class="pax-post-destination">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>10 Pax</span>
+                                </div>
+                                <div class="info-time">
+                                    <i class="fa-solid fa-timer"></i>
+                                    <p>12 days 11 night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explore-post-destination">
+                        <div class="info-prices">
+                            <span>From</span>
+                            <h3>$520.00</h3>
+                        </div>
+                        <button class="btn-view">
+                            <a href="detailTour.html">
+                                Explore
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap paination-destination">
+                <ul class="pagination">
+                    <li>
+                        <a class="pagin-prev">
+                            <i class="fa-light fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-number active">
+                        <a>
+                            1
+                        </a>
+                    </li>
+                    <li class="page-number">
+                        <a>
+                            2
+                        </a>
+                    </li>
+                    <li class="page-number">
+                        <a>
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pagin-next">
+                            <i class="fa-light fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <div w3-include-html="footer.html"></div>
+
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="./js/app.js"></script>
+        <script src="./js/active.js"></script>
+        <script src="./js/w3_includes.js"></script>
+    </body>
+
+</html>

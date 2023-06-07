@@ -1,0 +1,839 @@
+/* Styling section list-destinatin */
+
+.box-list-destination {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+.box-list-destination .wrap-list-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+    border: 3px solid #eeeeee;
+    width: 100%;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-right: 1px solid #dedede;
+    gap: 30px;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .img-post-destination {
+    display: inline-block;
+    overflow: hidden;
+    height: 195px;
+    width: 30%;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination>a {
+    font-family: var(--second-font);
+    font-size: 30px;
+    font-weight: 500;
+    color: #413734;
+    text-align: left;
+    transition: all 0.25s linear;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination a:hover {
+    color: var(--primary-color);
+    transition: all 0.25s linear;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination p {
+    font-family: var(--normal-font);
+    font-size: 16px;
+    font-weight: 700;
+    color: #726d6b;
+    line-height: 25px;
+    text-align: left;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .vote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .vote .vote-star i {
+    font-size: 14px;
+    color: #ff7044;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .vote span {
+    font-family: var(--normal-font);
+    font-size: 14px;
+    font-weight: 700;
+    color: #726d6b;
+    line-height: 25px;
+    text-align: left;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>i {
+    color: #726d6b;
+    font-size: 14px;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>.fa-play {
+    transform: rotate(90deg);
+    font-size: 8px;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>a {
+    font-family: var(--normal-font);
+    font-size: 12px;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>ul {
+    position: absolute;
+    z-index: 1;
+    width: 120px;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    display: none;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>ul>li {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #dedede;
+    border-bottom: 1px solid #dedede;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li>ul>li>a {
+    padding: 10px 10px;
+    width: 100%;
+    display: inline-block;
+    color: var(--primary-color);
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination>li:hover>ul {
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .pax-post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .pax-post-destination i {
+    color: #726d6b;
+    font-size: 14px;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .pax-post-destination span {
+    color: #726d6b;
+    font-size: 12px;
+    font-family: var(--normal-font);
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .info-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #dbdbdb;
+    border-radius: 35px;
+    padding: 4px 16px 4px 4px;
+    margin-bottom: 0px;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .info-time i {
+    color: #fff;
+    font-size: 14px;
+    background-color: #a6967c;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .info-time p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--third-font);
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    gap: 15px;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices h3 {
+    color: #a6967c;
+    font-family: var(--second-font);
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices span {
+    color: #726d6b;
+    font-family: var(--second-font);
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: right;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination button {
+    position: relative;
+    z-index: 1;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 150px;
+    border: none;
+    border-radius: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination button a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    font-family: var(--third-font);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination button::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-radius: 36px;
+    background-color: #a6967c;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .wrap-list-destination .post-destination .explore-post-destination button:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+/* Change list view destination */
+
+.box-list-destination .wrap-list-destination.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination {
+    flex-direction: column;
+    padding: 15px;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination {
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+    border: none;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .img-post-destination {
+    display: inline-block;
+    overflow: hidden;
+    height: 336px;
+    width: 100%;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination .vote {
+    display: none;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination .element-post-destination {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination .element-post-destination .tag-post-destination,
+.box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination .element-post-destination .pax-post-destination {
+    display: none;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination .info-prices span {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination .info-prices h3 {
+    font-size: 30px;
+    transition: all 0.25s linear;
+}
+
+/* Search destination */
+
+.box-list-destination .search-destination {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #eeeeee;
+    width: 100%;
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .search-destination .select-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    gap: 15px;
+
+}
+
+.box-list-destination .search-destination .select-destination span {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+    font-size: 20px;
+    font-family: var(--third-font);
+    color: #413734;
+}
+
+.box-list-destination .search-destination .select-destination span i {
+    display: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.box-list-destination .search-destination .select-destination .select {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-list-destination .search-destination .select-destination select {
+    color: #726d6b;
+    font-family: var(--normal-font);
+    font-size: 16px;
+    padding: 15px 45px 15px 15px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    border-radius: 36px;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-overflow: ellipsis;
+}
+
+.box-list-destination .search-destination .select-destination .select i {
+    position: absolute;
+    right: 15px;
+    color: #726d6b;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box-list-destination .search-destination .select-destination button {
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 36px;
+    font-size: 16px;
+    color: #fff;
+    font-family: var(--third-font);
+    cursor: pointer;
+}
+
+.box-list-destination .search-destination .change-grid {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+.box-list-destination .search-destination .change-grid i {
+    color: #413734;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.box-list-destination .search-destination .change-grid i:hover {
+    color: var(--primary-color);
+    transition: all 0.25s linear;
+}
+
+.box-list-destination .search-destination .change-grid i:active {
+    transform: scale(0.9);
+}
+
+.box-list-destination .search-destination .change-grid i.fa-grid {
+    display: block;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .search-destination .change-grid i.fa-list {
+    display: none;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .search-destination .change-grid.grid i.fa-grid {
+    display: none;
+    transition: all 0.25s linear;
+
+}
+
+.box-list-destination .search-destination .change-grid.grid i.fa-list {
+    display: block;
+    transition: all 0.25s linear;
+
+}
+
+/* Pagination */
+
+.box-list-destination .paination-destination {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-list-destination .paination-destination ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box-list-destination .paination-destination ul>li.page-number {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box-list-destination .paination-destination ul>li>a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #413734;
+    font-size: 18px;
+    font-family: var(--third-font);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .paination-destination ul>li.page-number.active>a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: var(--primary-color) !important;
+    color: #fff !important;
+    transition: all 0.3s linear;
+}
+
+.box-list-destination .paination-destination ul>li.page-number:hover>a {
+    background-color: #ff704450;
+    color: #726d6b;
+}
+
+
+/* Reponsive */
+
+@media (max-width: 1230px) {
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .img-post-destination {
+        width: 35%;
+        transition: all 0.25s linear;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination {
+        width: 65%;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .search-destination {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        gap: 15px;
+        transition: all 0.25s linear;
+    }
+
+    /* <<<Grid>>> */
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination {
+        padding: 0;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination {
+        gap: 5px;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination {
+        width: 100%;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination .info-prices h3 {
+        font-size: 24px;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination button {
+        width: 100px;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination>a {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .box-list-destination .wrap-list-destination .post-destination {
+        flex-direction: column;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 30px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination {
+        width: 75%;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .explore-post-destination {
+        width: 100%;
+        padding-top: 30px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .search-destination .select-destination {
+        flex-wrap: wrap;
+        margin-top: -40px;
+        transition: all 0.25s linear;
+
+    }
+
+    /* <<<Grid>>> */
+
+    .box-list-destination .wrap-list-destination.grid {
+        grid-template-columns: auto auto;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .explore-post-destination {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .box-list-destination {
+        padding: 50px 0;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination {
+        flex-direction: column;
+        border: none;
+        padding: 0;
+        margin-bottom: 30px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .img-post-destination {
+        width: 100%;
+        height: 350px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination {
+        width: 100%;
+        gap: 5px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination>a {
+        font-size: 24px;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination p {
+        font-size: 14px;
+    }
+
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination {
+        gap: 10px;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .info-post-destination .content-post-destination .element-post-destination .info-time p {
+        font-size: 12px;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .explore-post-destination {
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices {
+        flex-direction: row;
+        gap: 10px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices span {
+        font-size: 20px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .wrap-list-destination .post-destination .explore-post-destination .info-prices h3 {
+        font-size: 20px;
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .search-destination .select-destination span i {
+        display: block;
+        transition: all 0.25s linear;
+    }
+
+    #filter-select.active>i {
+        transform: rotate(-90deg);
+        transition: all 0.25s linear;
+    }
+
+    #filter-select {
+        display: inline-flex;
+        width: auto;
+        font-size: 14px;
+        background-color: #ff7044;
+        padding: 15px;
+        border-radius: 36px;
+        color: #fff;
+        transition: all 0.25s linear;
+
+    }
+
+    #filter-select~.select {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        transform: rotateX(90deg);
+
+    }
+
+    #filter-select~button {
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        font-size: 14px;
+        visibility: hidden;
+        transform: rotateX(90deg);
+    }
+
+    #filter-select.active~.select {
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        transform: rotateX(0deg);
+        transition: all 0.25s linear;
+
+    }
+
+    #filter-select.active~button {
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        transform: rotateX(0deg);
+        transition: all 0.25s linear;
+
+    }
+
+    .box-list-destination .search-destination .select-destination select {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    /* <<<Grid>>> */
+    .box-list-destination .wrap-list-destination.grid {
+        grid-template-columns: auto;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination {
+        margin: 0;
+    }
+
+    .box-list-destination .wrap-list-destination.grid .post-destination .info-post-destination .content-post-destination>a {
+        font-size: 24px;
+    }
+}
